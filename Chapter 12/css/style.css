@@ -1,0 +1,232 @@
+ 
+ .fontStyle .normal {
+     font-style: normal;
+ }
+ .fontStyle .italic{
+     font-style: italic
+}
+.fontStyle .oblique{
+    font-style: oblique
+}
+
+
+
+
+
+.textTransform .uppercase {
+    text-transform: uppercase;
+}
+.textTransform .lowercase {
+    text-transform: lowercase;
+}
+.textTransform .capitalize {
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+.textDecoration .underline {
+    text-decoration: underline;
+}
+.textDecoration .lineThrough {
+    text-decoration: line-through;
+}
+.textDecoration .overline {
+    text-decoration: overline;
+}
+.textDecoration .blink {
+    text-decoration: blink;
+}
+
+
+
+
+.lineHeight .normal {
+    line-height: normal;
+}
+.lineHeight .height {
+    line-height: 4em;
+}
+
+
+
+.letterSpacing .letterSpaced {
+    letter-spacing: 1em;
+}
+
+
+
+.wordSpacing .wordSpaced {
+    word-spacing: 1em;
+}
+
+
+
+
+.textAlign .left {
+    text-align: left
+}
+.textAlign .right {
+    text-align: right;
+}
+.textAlign .center {
+    text-align: center
+}
+.textAlign .justify {
+    text-align: justify;
+}
+
+
+.verticalAlign .baseline img {
+    vertical-align: baseline
+}
+.verticalAlign .top img {
+    vertical-align: top
+}
+.verticalAlign .sub span {
+    vertical-align: sub
+}
+.verticalAlign .super span {
+     font-size:30px;
+    vertical-align: super
+}
+.verticalAlign .textTop span {
+    font-size:30px;
+    vertical-align: text-top
+}
+.verticalAlign .middle span {
+    vertical-align: middle;
+    font-size:30px;
+}
+.verticalAlign .bottom img {
+    vertical-align: bottom;
+    font-size:30px;
+}
+.verticalAlign .textBottom span {
+    vertical-align: text-bottom;
+    font-size:30px;
+}
+
+
+
+
+
+.textIndent .indented {
+    text-indent: 200px;
+}
+
+
+
+.textShadow p {
+    padding: 2%;
+    width: 50%;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.textShadow .one {
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 0px #000000;
+}
+.textShadow .two {
+    background-color: #dddddd;
+    color: #666666;
+    text-shadow: 1px 1px 3px #666666;
+}
+.textShadow .three {
+    background-color: #cccccc;
+    color: #ffffff;
+    text-shadow: 2px 2px 7px #111111;
+}
+.textShadow .four {
+    background-color: #bbbbbb;
+    color: #cccccc;
+    text-shadow: -1px -2px #666666;
+}
+.textShadow .five {
+    background-color: #aaaaaa;
+    color: #ffffff;
+    text-shadow: -1px -1px #666666;
+}
+
+
+
+
+.pseudoElements .firstLine::first-line {
+    font-weight: bold;
+}
+.pseudoElements .firstLetter::first-letter {
+    font-size: 200%;
+}
+.pseudoElements .before::before {
+    content: url('../images/image.jpg')
+}
+.pseudoElements .after::after {
+    font-size: 200%;
+    content: url('../images/image.jpg')
+}
+.pseudoElements .selection::selection {
+    color: yellow;
+    background: green;
+}
+
+
+.pseudoClasses a:link { 
+    color: deeppink;
+    text-decoration: none;
+}
+.pseudoClasses a:visited {
+    color: chocolate;
+}
+.pseudoClasses a:hover {
+    color: deeppink;
+    text-decoration: underline;
+}
+.pseudoClasses  a:active {
+    color: darkcyan;
+}
+.pseudoClasses  a:focus {
+    color: purple;
+}
+
+.input:focus {
+    color: red;
+}
+
+.btn:hover {
+    background: grey;
+}
+
+
+
+.attributeSeletors p[class] {
+    background: darkseagreen;
+    padding: 2%;
+    width: 50%;
+    margin:0px;
+    border-bottom: 1px solid darkslateblue; 
+}
+
+.attributeSeletors p[class="dog"] {
+    font-weight: bold;
+}
+
+
+.attributeSeletors p[class~="dog"] {
+    font-style: italic;
+}
+
+.attributeSeletors p[class*="in"] {
+    font-size: 200%;
+}
+
+.attributeSeletors p[class^="o"] {
+    text-transform: capitalize
+}
+.attributeSeletors p[class$="e"] {
+    text-decoration: line-through;
+}
